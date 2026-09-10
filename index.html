@@ -595,20 +595,20 @@
       <form id="leadForm" class="space-y-4" onsubmit="return handleSubmit(event)">
         <div class="grid sm:grid-cols-2 gap-4">
           <div>
-            <label class="text-xs font-bold text-white/60 uppercase tracking-wider" style="font-family:'Montserrat'">Nome *</label>
+            <label for="fName" class="text-xs font-bold text-white/60 uppercase tracking-wider" style="font-family:'Montserrat'">Nome *</label>
             <input required type="text" id="fName" placeholder="Seu nome" class="field mt-2 w-full rounded-xl px-4 py-3.5 text-sm placeholder:text-white/30">
           </div>
           <div>
-            <label class="text-xs font-bold text-white/60 uppercase tracking-wider" style="font-family:'Montserrat'">WhatsApp *</label>
+            <label for="fPhone" class="text-xs font-bold text-white/60 uppercase tracking-wider" style="font-family:'Montserrat'">WhatsApp *</label>
             <input required type="tel" id="fPhone" placeholder="(19) 99999-9999" class="field mt-2 w-full rounded-xl px-4 py-3.5 text-sm placeholder:text-white/30">
           </div>
         </div>
         <div>
-          <label class="text-xs font-bold text-white/60 uppercase tracking-wider" style="font-family:'Montserrat'">E-mail *</label>
+          <label for="fEmail" class="text-xs font-bold text-white/60 uppercase tracking-wider" style="font-family:'Montserrat'">E-mail *</label>
           <input required type="email" id="fEmail" placeholder="voce@empresa.com" class="field mt-2 w-full rounded-xl px-4 py-3.5 text-sm placeholder:text-white/30">
         </div>
         <div>
-          <label class="text-xs font-bold text-white/60 uppercase tracking-wider" style="font-family:'Montserrat'">Faturamento mensal</label>
+          <label for="fRevenue" class="text-xs font-bold text-white/60 uppercase tracking-wider" style="font-family:'Montserrat'">Faturamento mensal</label>
           <select id="fRevenue" class="field mt-2 w-full rounded-xl px-4 py-3.5 text-sm">
             <option>Até R$ 30 mil</option>
             <option>R$ 30 mil – R$ 100 mil</option>
@@ -617,7 +617,7 @@
           </select>
         </div>
         <div>
-          <label class="text-xs font-bold text-white/60 uppercase tracking-wider" style="font-family:'Montserrat'">Como podemos ajudar?</label>
+          <label for="fMsg" class="text-xs font-bold text-white/60 uppercase tracking-wider" style="font-family:'Montserrat'">Como podemos ajudar?</label>
           <textarea id="fMsg" rows="3" placeholder="Conte sobre seu negócio e seu objetivo..." class="field mt-2 w-full rounded-xl px-4 py-3.5 text-sm placeholder:text-white/30 resize-none"></textarea>
         </div>
         <button type="submit" id="submitBtn" class="btn-primary w-full bg-brand hover:bg-branddark text-white font-display font-extrabold py-4 rounded-2xl text-base flex items-center justify-center gap-2">
